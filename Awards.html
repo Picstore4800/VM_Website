@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dr. Vani Janardhanan | Home</title>
+    <link rel="icon" type="image/png" href="img/Logo.png">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+        integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body id="home">
+    <!-- Start Your Body Code From here -->
+    <div class="wrapper">
+        <!-- header starts here -->
+        <header id="header" class="">
+            <!-- header -->
+            <div class="header-wrapper">
+                <div class="header-container">
+                    <div>
+                        <div class="logo-name">
+                            <!-- <div class="logo">
+                                <a href="index.html" title=""><img src="img/Logo.png" alt="logo"></a>
+                            </div> -->
+                            <div class="name">
+                                <a href="index.html" title="" style="color: #194f6e;">
+                                    <h5 class="Main-name">Dr. Vani Janardhanan</h5>
+                                    <p class="tagline" style="font-size: 1.5rem; font-weight: bold;" class="primary-color sub-title">
+                                        Asst. Professor IIT Palakkad</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <nav>
+                <div class="navbar navbar-inverse navbar-custom" role="navigation">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                                data-target=".navbar-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div class="collapse navbar-collapse">
+                            <ul class="nav navbar-nav">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="About_Me.html">About Me</a></li>
+                                <li><a href="Publications.html">Publications</a></li>
+                                <li><a href="Presentation.html">Presentations</a></li>
+                                <li><a href="Awards.html">Awards</a></li>
+                                <li><a href="Blog.html">Blog</a></li>
+                                <li><a href="Contact.html">Contact Me</a></li>
+
+
+
+                            </ul>
+                        </div>
+                        <!--/.nav-collapse -->
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- /header -->
+
+        <!-- carousel -->
+        <div class="carousel-wrapper">
+            <div class="carousel" >
+                <div class="carousel-items" style="width:100%; height: auto;">
+                    <img style=" background-repeat:no-repeat; background-size:cover;   display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                    padding-left: 20px;
+                    padding-right: 20px;" src="img/banner.jpg"
+                        alt="Faculty">
+                    <div></div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- Announcements, Events, News -->
+     	
+	<div class="container">
+        <div class="section">
+              <div class="col span_2_of_3">
+        <div class="blog-post">
+            <br><br>
+            <br><br>
+            <br><br>
+            <br><br>
+
+      <br><br>
+      <br><br>
+      <br><br>
+      <br><br>
+      <br><br>
+    
+                    </div>
+              </div>
+              
+              <aside class="col span_1_of_3">
+                    <div class="side-post">
+                        <div class="search">
+          <input type="text" id="myInput" onkeyup="mySearchFunction()" placeholder="Search">
+                            <button type="submit" class="searchButton">
+                              <i class="fa fa-search"></i>
+                           </button>
+                         </div>        
+
+<ul id="stateList">
+  <li>Alabama</li>
+  <li>Alaska</li>
+  <li>Arizona</li>
+  <li>Arkansas</li>
+  <li>California</li>
+  <li>Utah</li>
+  <li>Vermont</li>
+  <li>Virginia</li>
+  <li>Washington</li>
+  <li>West Virginia</li>
+  <li>Wisconsin</li>
+  <li>Wyoming</li>
+</ul>
+<style>
+    
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #00B4CC;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+.searchButton {
+  width: 20px;
+  height: 36px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.wrap{
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+</style>
+<script>
+    function mySearchFunction() {
+  // Declare variables
+  var input, filter, ul, li, item, i, txtValue;
+  // User Input
+  input = document.getElementById("myInput");
+  // Filter, makes search not case sensitive
+  filter = input.value.toUpperCase();
+  // Grabs the parent element by id
+  ul = document.getElementById("stateList");
+  // Individual item on list
+  li = ul.getElementsByTagName("li");
+
+  // Treats lists items like an array, where each item can be accessed through      it's index
+  for (i = 0; i < li.length; i++) {
+    item = li[i];
+   // Iterate over each list item to see if the value of the input, ignoring         case, matches the inner text or inner html of the item.
+    txtValue = item.textContent || item.innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+    // Displays list items that are a match, and nothing if no match
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
+    }
+  }
+}
+
+</script>
+                    </div>
+               </aside>
+        </div>
+  </div>
+
+ 
+
+        <!-- Footer -->
+        <footer>
+            <div class="footer-wrapper">
+                <!-- <span class="logo"><img src="img/Logo.png" alt=""></span> -->
+                <div class="row">
+                    <div class="col-sm-12">
+                        <p>Copyright ©<strong> 2023 Dr. Vani Janardhanan</strong></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/jquery.paginate.min.js "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+        integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+        crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/434d359724.js"></script>
+    <script src="js/main.js"></script>
+    <!-- <script>
+    $(document).ready(function () {
+        $('[data-toggle="popover"]').popover();
+        $('[data-toggle="popover"]').on('click', function (e) {
+            $('[data-toggle="popover"]').not(this).popover('hide');
+        });
+    });
+</script> -->
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
