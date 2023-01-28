@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
         integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
 </head>
 
 <body id="home">
@@ -18,27 +20,31 @@
     <div class="wrapper">
         <!-- header starts here -->
         <header id="header" class="">
-            <!-- header -->
-            <div class="header-wrapper">
-                <div class="header-container">
-                    <div>
-                        <div class="logo-name">
-                            <!-- <div class="logo">
+            <nav>
+                <!-- header -->
+                <div class="header-wrapper">
+
+                    <div class="header-container">
+                        <div>
+                            <div class="logo-name">
+                                <!-- <div class="logo">
                                 <a href="index.html" title=""><img src="img/Logo.png" alt="logo"></a>
                             </div> -->
-                            <div class="name">
-                                <a href="index.html" title="" style="color: #194f6e;">
-                                    <h5 class="Main-name">Dr. Vani Janardhanan</h5>
-                                    <p class="tagline" style="font-size: 1.5rem; font-weight: bold;" class="primary-color sub-title">
-                                        Asst. Professor IIT Palakkad</p>
-                                </a>
+                                <div class="name">
+                                    <a href="index.html" title="" style="color: #194f6e;">
+                                        <h5 class="Main-name">Dr. Vani Janardhanan</h5>
+                                        <p class="tagline" style="font-size: 1.5rem; font-weight: bold;"
+                                            class="primary-color sub-title">
+                                            Asst. Professor IIT Palakkad</p>
+                                    </a>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
+                    </div>
                 </div>
-            </div>
-            <nav>
+                <!-- navbar -->
+
                 <div class="navbar navbar-inverse navbar-custom" role="navigation">
                     <div class="container">
                         <div class="navbar-header">
@@ -73,12 +79,11 @@
 
         <!-- carousel -->
         <div class="carousel-wrapper">
-            <div class="carousel" >
+            <div class="carousel">
                 <div class="carousel-items">
-                    <img class="bnr-img" style="width:100%;
-                    height:auto;"
-                    src="img/banner.jpg"
-                        alt="Faculty">
+                    <img style=" width: 100%; height: auto;
+                    padding-left: 35px;
+                    padding-right: 35px;" src="img/banner - homepage.png" alt="Faculty">
                     <div></div>
 
                 </div>
@@ -88,123 +93,119 @@
 
 
         <!-- Announcements, Events, News -->
-     	
-	<div class="container">
-        <div class="section">
-              <div class="col span_2_of_3">
-        <div class="blog-post">
-      <h2>Dr. Vani Janardhanan</h2>
 
-      <img src="img/Professor-R-Nagaraj.jpg" alt="">
-      <br><br>
-      <br><br>
-      <br><br>
-      <br><br>
-      <br><br>
-    
+        <div class="container">
+            <div class="section">
+                <div class="col span_2_of_3">
+                    <div class="blog-post">
+                        <h2>Dr. Vani Janardhanan</h2>
+<br>
+                        <img src="img/Professor-R-Nagaraj.jpg" alt="">
+                        <br><br>
+                      
+
                     </div>
-              </div>
-              
-              <aside class="col span_1_of_3">
+                </div>
+
+                <aside class="col span_1_of_3">
                     <div class="side-post">
                         <div class="search">
-          <input type="text" id="myInput" onkeyup="mySearchFunction()" placeholder="Search">
-                            <button type="submit" class="searchButton">
-                              <i class="fa fa-search"></i>
-                           </button>
-                         </div>        
+                            <input type="text" id="myInput" onkeyup="mySearchFunction()" placeholder="Search">
+                            <button type="submit" class="searchButton" style="width: 40px;">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+<br><br>
+                        <ul id="stateList">
+                            <li>Alabama</li>
+                            <li>Alaska</li>
+                            <li>Arizona</li>
+                            <li>Arkansas</li>
+                            <li>California</li>
+                            <li>Utah</li>
+                            <li>Vermont</li>
+                            <li>Virginia</li>
+                            <li>Washington</li>
+                            <li>West Virginia</li>
+                            <li>Wisconsin</li>
+                            <li>Wyoming</li>
+                        </ul>
+                        <style>
+                            .search {
+                                width: 100%;
+                                position: relative;
+                                display: flex;
+                            }
 
-<ul id="stateList">
-  <li>Alabama</li>
-  <li>Alaska</li>
-  <li>Arizona</li>
-  <li>Arkansas</li>
-  <li>California</li>
-  <li>Utah</li>
-  <li>Vermont</li>
-  <li>Virginia</li>
-  <li>Washington</li>
-  <li>West Virginia</li>
-  <li>Wisconsin</li>
-  <li>Wyoming</li>
-</ul>
-<style>
-    
-.search {
-  width: 100%;
-  position: relative;
-  display: flex;
-}
+                            .searchTerm {
+                                width: 100%;
+                                border: 3px solid #00B4CC;
+                                border-right: none;
+                                padding: 5px;
+                                height: 20px;
+                                border-radius: 5px 0 0 5px;
+                                outline: none;
+                                color: #9DBFAF;
+                            }
 
-.searchTerm {
-  width: 100%;
-  border: 3px solid #00B4CC;
-  border-right: none;
-  padding: 5px;
-  height: 20px;
-  border-radius: 5px 0 0 5px;
-  outline: none;
-  color: #9DBFAF;
-}
+                            .searchTerm:focus {
+                                color: #00B4CC;
+                            }
 
-.searchTerm:focus{
-  color: #00B4CC;
-}
+                            .searchButton {
+                                width: 20px;
+                                height: 36px;
+                                border: 1px solid #00B4CC;
+                                background: #00B4CC;
+                                text-align: center;
+                                color: #fff;
+                                border-radius: 0 5px 5px 0;
+                                cursor: pointer;
+                                font-size: 20px;
+                            }
 
-.searchButton {
-  width: 20px;
-  height: 36px;
-  border: 1px solid #00B4CC;
-  background: #00B4CC;
-  text-align: center;
-  color: #fff;
-  border-radius: 0 5px 5px 0;
-  cursor: pointer;
-  font-size: 20px;
-}
+                            .wrap {
+                                width: 30%;
+                                position: absolute;
+                                top: 50%;
+                                left: 50%;
+                                transform: translate(-50%, -50%);
+                            }
+                        </style>
+                        <script>
+                            function mySearchFunction() {
+                                // Declare variables
+                                var input, filter, ul, li, item, i, txtValue;
+                                // User Input
+                                input = document.getElementById("myInput");
+                                // Filter, makes search not case sensitive
+                                filter = input.value.toUpperCase();
+                                // Grabs the parent element by id
+                                ul = document.getElementById("stateList");
+                                // Individual item on list
+                                li = ul.getElementsByTagName("li");
 
-.wrap{
-  width: 30%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-</style>
-<script>
-    function mySearchFunction() {
-  // Declare variables
-  var input, filter, ul, li, item, i, txtValue;
-  // User Input
-  input = document.getElementById("myInput");
-  // Filter, makes search not case sensitive
-  filter = input.value.toUpperCase();
-  // Grabs the parent element by id
-  ul = document.getElementById("stateList");
-  // Individual item on list
-  li = ul.getElementsByTagName("li");
+                                // Treats lists items like an array, where each item can be accessed through      it's index
+                                for (i = 0; i < li.length; i++) {
+                                    item = li[i];
+                                    // Iterate over each list item to see if the value of the input, ignoring         case, matches the inner text or inner html of the item.
+                                    txtValue = item.textContent || item.innerText;
+                                    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                                        // Displays list items that are a match, and nothing if no match
+                                        li[i].style.display = "";
+                                    } else {
+                                        li[i].style.display = "none";
+                                    }
+                                }
+                            }
 
-  // Treats lists items like an array, where each item can be accessed through      it's index
-  for (i = 0; i < li.length; i++) {
-    item = li[i];
-   // Iterate over each list item to see if the value of the input, ignoring         case, matches the inner text or inner html of the item.
-    txtValue = item.textContent || item.innerText;
-    if (txtValue.toUpperCase().indexOf(filter) > -1) {
-    // Displays list items that are a match, and nothing if no match
-      li[i].style.display = "";
-    } else {
-      li[i].style.display = "none";
-    }
-  }
-}
-
-</script>
+                        </script>
                     </div>
-               </aside>
+                </aside>
+            </div>
         </div>
-  </div>
 
- 
+
 
         <!-- Footer -->
         <footer>
@@ -237,20 +238,3 @@
 </body>
 
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
